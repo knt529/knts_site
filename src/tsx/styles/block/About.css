@@ -1,0 +1,135 @@
+.about{
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px 20px 40px 20px;                               
+}
+.site-about{
+  display: flex;
+}
+.about img{
+  border-radius: 50%;
+  width: 360px;
+  height: 360px;
+  margin: 50px 0 0 30px;
+  object-fit: cover;
+  border: 2px solid rgb(137, 137, 137);
+}
+
+.about_name {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 8px;
+}
+
+.aboutContent{
+  margin-left: 30px;
+}
+
+.about .title{
+  margin: 20px 0 10px 100px;
+  font-size: 3.5rem;
+}
+
+.aboutContent p{
+  padding: 8px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 1500px){
+  .about{
+    width: 75%;
+  }
+  .about img{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+  }
+  .about_name{
+    padding: 3px;
+  }
+  .aboutContent p{
+    padding: 3px;
+  }
+  }
+  @media screen and (min-width: 321px) and (max-width: 1200px){
+   .about{
+     width: 95%;
+     height:520px;
+   }
+   .about_name{
+     padding-left: 15px;
+     margin-top: 12px;
+   }
+   .aboutContent p{
+    padding:0;
+  }
+  }
+  @media screen and (min-width: 321px) and (max-width: 1100px){
+    .aboutContent p{
+      margin: 15px;
+     }
+  }
+  @media screen and (min-width: 321px) and (max-width: 850px){
+    .site-about{
+      display: block;     
+    }
+    .face{
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+    }
+    .about img{
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin: 0;
+      object-fit: cover;
+      border: 3px solid #999;
+    }
+    .aboutContent{
+      margin: 0;
+    }
+  }
+  @media screen and (min-width: 321px) and (max-width: 450px){
+    .about{
+      top: 15rem;
+      padding: 18px 18px 10px 18px;
+    }
+    .face{
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+    }
+    .about .title{
+      font-size: 25px;
+      margin-top: 0;
+    }
+    .about_name{
+      padding: 0 0 0 2px;
+    }
+    .about img{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin: 0;
+      object-fit: cover;
+      border: 2px solid #999;
+    }
+    
+    .aboutContent{
+      font-size: 13px;
+    }
+    
+    .aboutContent .title {
+      display: none;
+    }
+    
+    .aboutContent p{
+      padding: 2px;
+      margin: 10px 0;
+    }
+    .about_name {
+      font-size: 15px;
+      margin-top: 0;
+    }
+  }
