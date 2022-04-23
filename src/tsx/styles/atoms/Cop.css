@@ -40,6 +40,7 @@
   }
   .cp_offcm01 .cp_menu li a {
     display: block;
+    font-size: 25px;
     padding: 20px;
     text-decoration: none;
     color: #ffffff;
@@ -97,7 +98,7 @@
 @media screen and (min-width: 321px) and (max-width: 450px){
   .cp_offcm01 {
     position: absolute;
-    top: 17px;
+    top: 8px;
     right: 20px;
     display: inline-block;
   }

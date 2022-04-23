@@ -4,6 +4,9 @@
   height: 900px;
   opacity: 0.9;
 }
+.top-view2{
+  display: none;
+}
 .msg{
   position: absolute;
   color: rgb(255, 255, 255);
@@ -50,5 +53,23 @@
 .msg{
   font-size: 1.5rem;
   top: 17rem;
+}
+}
+@media screen and (min-width: 321px) and (max-width: 450px){
+.top-view img{
+  height: 510px;
+}
+.top-view1{
+ display: none;
+}
+.top-view2{
+ display: block;
+}
+.msg{
+  font-size: 1.4rem;
+  top: 10.8rem;
+}
+.br{
+  display: block;
 }
 }
