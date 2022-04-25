@@ -8,33 +8,55 @@ function Skill() {
       <h1 className="title" >Web Skills</h1>
       <div className="skill">
         <div className="language">
-             <div>
+           <h1>Language</h1>
+             <div className="skill_contents">
                <section>
                <Content
                  name="HTML/CSS"
-                 text="基本的なコーディングであれば可能です。"
+                 text={
+                   <div>
+                     <p>学習期間 1年3ヶ月</p>
+                     <p>基本的なコーディングであれば可能です。</p>
+                   </div>
+                }
                />
                </section>
                <section>
                <Content
                  name="JavaScript"
-                 text="書籍を用いて学習中。"
+                 text={
+                   <div>
+                    <p>学習期間 7ヶ月</p>
+                    <p>基本的なコーディングであれば可能です。</p>
+                  </div>
+               }
                />
                </section>  
              </div>
         </div>
-        <div className="framework_tool">   
-             <div>
+        <div className="library_tool">   
+            <h1>Library&Tool</h1>
+             <div className="skill_contents">
                <section className="react">
                <Content
                  name="React"
-                 text="書籍を用いて学習中。"
+                 text={
+                  <div>
+                    <p>学習期間 5ヶ月</p>
+                    <p>基本的なコーディングであれば可能です。</p>
+                  </div>
+               }
                />
                </section>
                <section>
                <Content
                  name="Git"
-                 text="書籍を用いて学習中。"
+                 text={
+                  <div>
+                    <p>学習期間 1ヶ月</p>
+                    <p>基本的なコーディングであれば可能です。</p>
+                  </div>
+               }
                />
                </section>  
              </div>

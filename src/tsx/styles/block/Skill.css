@@ -1,34 +1,54 @@
 .skills {
-  text-align: center;
 }
 
 .skill {
   display: flex;
-  width: 100%;
+  width: 80%;
   height: 100%;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 auto;
 }
 .skills .title{
   text-align: left;
   margin: 20px 0 10px 360px;
   font-size: 3.5rem;
 }
+.skill_contents{
+  position: relative;
+  border: 2px solid rgb(85, 84, 84);
+  border-radius: 15px;
+  padding: 30px;
+  padding-top: 0;
+  top: 30px;
+}
 
 .language{
   margin: 0 20px;
-  width: 30%;
+  width: 40%;
 }
 .language h1{
+  position: absolute;
+  background: rgb(255, 255, 255);
   font-size: 2.5rem;
+  margin-top: 0;
+  margin-left: 40px;
+  padding: 0 20px;
+  z-index: 2;
 }
-.framework_tool{
+.library_tool{
   margin: 0 20px;
-  width: 30%;
+  width: 40%;
 }
 
-.framework_tool h1{
+.library_tool h1{
+  position: absolute;
+  background: rgb(255, 255, 255);
   font-size: 2.5rem;
+  margin-top: 0;
+  margin-left: 40px;
+  padding: 0 20px;
+  z-index: 2;
 }
 .and{
   font-size: 2rem;
@@ -41,8 +61,18 @@
 }
 @media screen and (min-width: 321px) and (max-width: 1500px){
  .skills .title{
-  margin: 20px 0 10px 230px;
+  margin: 20px 0 10px 250px;
  }
+ .language{
+  margin-bottom: 50px;
+  width: 40%;
+  margin: 0 auto;
+}
+.library_tool{
+  margin-bottom: 50px;
+  width: 40%;
+  margin: 0 auto;
+}
 }
 @media screen and (min-width: 321px) and (max-width: 1330px){
   .skill section{
@@ -50,17 +80,21 @@
     font-size: 18px;
     margin-top: 0px;
   }
-  .language h1{
-    font-size: 2rem;
-  }
-  .framework_tool h1{
-    font-size: 2rem;
-    padding: 0 5px;
-  }
 }
 @media screen and (min-width: 321px) and (max-width: 1200px){
   .skills .title{
     margin: 20px 0 10px 140px;
+  }
+  .language h1{
+    font-size: 2rem;
+  }
+  .library_tool h1{
+    font-size: 2rem;
+  }
+  .skill_contents{
+    padding: 30px;
+    padding-top: 0;
+    top: 23px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 1100px){
@@ -77,13 +111,10 @@
     width: 50%;
     margin: 0 auto;
   }
-  .framework_tool{
+  .library_tool{
     width: 50%;
     margin: 0 auto;
     margin-top: 8rem;
-  }
-  .framework_tool h1{
-    padding: 0 10px;
   }
   .skill section{
     margin-top: 20px;
@@ -92,6 +123,16 @@
   }
 }
 
+@media screen and (min-width: 321px) and (max-width: 800px){
+  .language{
+    margin-bottom: 50px;
+    width: 70%;
+  }
+  .library_tool{
+    margin-bottom: 50px;
+    width: 70%;   
+  }
+}
 @media screen and (min-width: 321px) and (max-width: 450px){
   .skills{
    
@@ -103,32 +144,39 @@
     margin: 40px;
   }
 
+  .skill_contents{
+    padding: 10px;
+    padding-top: 0;
+  }
+
   .skill section{
     margin-top: 0px;
     padding: 20px;
   }
   .language h1{
     font-size: 1.7rem;
+    margin-left: 17px;
   }
    
-  .framework_tool h1{
-    font-size: 1.5rem;
-    padding: 0 3px;
-  }
-  .react{
-   margin-top: 10px;
+  .library_tool h1{
+    font-size: 1.7rem;
+    margin-left: 17px;
   }
 
   .language{
-    width: 60%;
+    width: 70%;
   }
-  .framework_tool{
+  .library_tool{
     margin-top: 5rem;
-    width: 60%;
+    width: 70%;
   }
-  .framework_tool .and{
+  .library_tool .and{
     font-size: 18px;
     padding: 0 2px;
+  }
+
+  .skill_contents{
+    top: 20px;
   }
   
 }
