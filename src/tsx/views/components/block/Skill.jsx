@@ -1,12 +1,17 @@
 import Content from "../atoms/Content"
 
 import "../../../styles/block/Skill.css"
+import {Scroll} from "../atoms/ScrollReveal"
 
 function Skill() {
   return( 
     <div className="skills" id="skills">
+      <Scroll>
       <h1 className="title" >Web Skills</h1>
+      </Scroll>
+        <Scroll>
       <div className="skill">
+          
         <div className="language">
            <h1>Language</h1>
              <div className="skill_contents">
@@ -60,8 +65,9 @@ function Skill() {
                />
                </section>  
              </div>
-        </div>
+         </div>
       </div>
+        </Scroll>
     </div>
   )
  }

@@ -2,6 +2,8 @@ import "../../../styles/block/Contact.css"
 
 import React from 'react';
 
+import {Scroll} from "../atoms/ScrollReveal"
+
 
 class Contact extends React.Component {
   constructor(props) {
@@ -61,8 +63,12 @@ class Contact extends React.Component {
     return (    
         <div className='Form' id="contact">
         <div className="Contact">
-          <h1 className="title">Contact</h1>
-          {contactForm}
+          <Scroll>
+            <h1 className="title">Contact</h1>
+          </Scroll>
+          <Scroll>
+            {contactForm}
+          </Scroll>
           </div>
         </div>
     );
