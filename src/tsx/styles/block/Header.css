@@ -5,8 +5,10 @@
 .site-header{
   display: flex;
   justify-content: space-between;
-  background: rgb(189, 184, 184);
-  width: 100%;
+  background: rgb(229, 226, 226);
+  border-radius: 50px;
+  margin: 5px 3px;
+  width: 99.5%;
   height: 80px;
   padding: 10px 0;
   position: fixed;
@@ -74,16 +76,28 @@
 
 
 @media screen and (min-width: 321px) and (max-width: 1100px){
+  .site-header{
+    height: 70px;
+  }
   .brand{
     font-size: 1rem;
-    margin-top: 11px;
+    margin-top: 6px;
     padding-left: 50px;
+  }
+  .nav__wrapper{
+    margin-top: 22px;
   }
   .nav__item a{
     margin: 0 20px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 880px){
+  .site-header{
+    height: 60px;
+  }
+  .brand{
+    margin-top: 0;
+  }
   .nav{
     display: none;
   }
