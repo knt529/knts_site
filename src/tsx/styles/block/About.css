@@ -16,14 +16,20 @@
   border: 2px solid rgb(137, 137, 137);
 }
 
-.about_name {
-  font-size: 20px;
-  font-weight: normal;
-  padding: 8px;
-}
 
 .aboutContent{
+  margin-top: 25px;
   margin-left: 30px;
+}
+.about_name {
+  font-size: 25px;
+  font-weight: normal;
+}
+.small_name{
+  font-size: 18px;
+}
+.aboutContent p{
+  font-size: 20px;
 }
 
 .about .title{
@@ -31,24 +37,22 @@
   font-size: 3.5rem;
 }
 
-.aboutContent p{
-  padding: 8px;
-}
 
 @media screen and (min-width: 321px) and (max-width: 1500px){
   .about{
-    width: 75%;
+    width: 90%;
   }
   .about img{
     width: 300px;
     height: 300px;
-    margin-top: 100px;
+    margin-top: 60px;
   }
-  .about_name{
-    padding: 3px;
+  .aboutContent{
+    margin-top: 25px;
+    margin-left: 30px;
   }
   .aboutContent p{
-    padding: 3px;
+    font-size: 18px;
   }
   }
   @media screen and (min-width: 321px) and (max-width: 1200px){
@@ -56,65 +60,79 @@
      width: 95%;
      height:520px;
    }
-   .about_name{
-     padding-left: 15px;
-     margin-top: 12px;
-   }
-   .aboutContent p{
-    padding:0;
+   .aboutContent{
+    margin-top: 25px;
+    margin-left: 30px;
   }
   }
   @media screen and (min-width: 321px) and (max-width: 1100px){
+    .about_name{
+      margin-left: 15px;
+    }
     .aboutContent p{
       margin: 15px;
      }
   }
   @media screen and (min-width: 321px) and (max-width: 850px){
-    .site-about{
-      display: block;     
+    .about{
+      width: 90%;
+    }
+    .about .title{
+      margin-bottom: 40px;
     }
     .face{
-      margin: 0 auto;
-      width: 100px;
-      height: 100px;
+      order: 2;
     }
     .about img{
       border-radius: 50%;
-      width: 150px;
-      height: 150px;
+      width: 250px;
+      height: 250px;
       margin: 0;
+      margin-top: 10px;
       object-fit: cover;
       border: 3px solid #999;
     }
     .aboutContent{
+      order: 1;
+      width: 500px;
       margin: 0;
     }
+    .about_name{
+      font-size: 20px;
+    }
+    .aboutContent p{
+      font-size: 17px;
+     }
   }
   @media screen and (min-width: 321px) and (max-width: 450px){
     .about{
       width: 100%;
-      top: 15rem;
+      margin-top: 60px;
+    }
+    .site-about{
+      display: block;
+    }
+    .about .title{
+      margin-bottom: 25px;
     }
     .face{
       margin: 0 auto;
-      width: 100px;
-      height: 100px;
+      width: 254px;
     }
     .about .title{
-      font-size: 25px;
+      font-size: 2.5rem;
       margin-top: 0;
     }
     .about img{
       border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      margin: 0;
+      margin: 20px 0;
       object-fit: cover;
       border: 2px solid #999;
     }
     
     .aboutContent{
-      font-size: 13px;
+      width: 100%;
+
     }
     
     .aboutContent .title {
@@ -122,11 +140,13 @@
     }
     
     .aboutContent p{
+      font-size: 16px;
       padding: 2px;
       margin: 10px 0;
     }
     .about_name {
-      font-size: 15px;
+      font-size: 18px;
       margin-top: 0;
+      margin-left: 0;
     }
   }

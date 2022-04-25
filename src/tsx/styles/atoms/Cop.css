@@ -82,7 +82,8 @@
     display: block;
     content: '\f00d';
     font-size: 1.5rem;
-    background: #e2e0e0;
+    padding: 2px;
+    background: #ffffff3f;
     width: 1.5rem;
     border-radius: 2px;
     border: 1px solid rgba(70, 67, 67, 0.411);

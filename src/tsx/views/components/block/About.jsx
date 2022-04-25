@@ -10,7 +10,7 @@ function About() {
       <div className="site-about">
        <div className="face"><img src={face}></img></div>
        <div className="aboutContent">
-       <h2 className="about_name">横山 奏人</h2>
+       <h2 className="about_name">横山 奏人<span className="small_name">（よこやま かなと）</span></h2>
        <p>2001年5月29日生まれ 大阪府出身</p>
        <p>大阪経済大学 経済学部 3年生</p>
        <p>中学・高校はともにサッカー部に所属。</p>
