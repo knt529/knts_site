@@ -1,19 +1,22 @@
 .Footer{
-  height: 200px;
+  height: 100px;
   text-align: center;
   color: rgb(255, 255, 255);
   background: rgb(100, 99, 99);
   margin-top: 10px;
 }
 
-.footer_content a{
+.footer_content {
  display: block;
- padding-top: 20px;
+ padding: 39px;
 }
 
 @media screen and (min-width: 321px) and (max-width: 450px){
   .Footer{
-    height: 150px;
+    height: 90px;
+  }
+  .footer_content{
+    padding: 32px;
   }
   .Footer section {
     display: block;

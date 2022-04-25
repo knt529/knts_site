@@ -4,8 +4,7 @@ function Footer(){
   return(
     <div className="Footer">  
     <div className="footer_content">
-      <a>お問い合わせ</a>
-      <small>© Kanato.</small>
+      <small>copyright ©2022 Kanato.</small>
     </div>    
     </div>
   )
