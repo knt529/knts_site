@@ -61,8 +61,10 @@
     padding: 0px;
   }
   .contactForm input {
+    width: 235px;
     border: 0.1px solid #000;
     margin: 0;
+    padding: 10px;
   }
   .contactForm textarea {
     border: 0.1px solid #000;

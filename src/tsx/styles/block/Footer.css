@@ -6,8 +6,16 @@
   margin-top: 10px;
 }
 
+.footer_content a{
+ display: block;
+ padding-top: 20px;
+}
+
 @media screen and (min-width: 321px) and (max-width: 450px){
   .Footer{
     height: 150px;
+  }
+  .Footer section {
+    display: block;
   }
 }

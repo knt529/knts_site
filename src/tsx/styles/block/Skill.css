@@ -1,0 +1,134 @@
+.skills {
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.skills .title{
+  text-align: left;
+  margin: 20px 0 10px 360px;
+  font-size: 3.5rem;
+}
+
+.language{
+  margin: 0 20px;
+  width: 30%;
+}
+.language h1{
+  font-size: 2.5rem;
+}
+.framework_tool{
+  margin: 0 20px;
+  width: 30%;
+}
+
+.framework_tool h1{
+  font-size: 2.5rem;
+}
+.and{
+  font-size: 2rem;
+}
+
+.skill section{
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 321px) and (max-width: 1500px){
+ .skills .title{
+  margin: 20px 0 10px 230px;
+ }
+}
+@media screen and (min-width: 321px) and (max-width: 1330px){
+  .skill section{
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .language h1{
+    font-size: 2rem;
+  }
+  .framework_tool h1{
+    font-size: 2rem;
+    padding: 0 5px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 1200px){
+  .skills .title{
+    margin: 20px 0 10px 140px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 1100px){
+  .skill {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .skills .title{
+    margin-bottom: 3rem;
+  }
+  .language{
+    margin-bottom: 50px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .framework_tool{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8rem;
+  }
+  .framework_tool h1{
+    padding: 0 10px;
+  }
+  .skill section{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 450px){
+  .skills{
+   
+  }
+  .skills .title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    margin: 40px;
+  }
+
+  .skill section{
+    margin-top: 0px;
+    padding: 20px;
+  }
+  .language h1{
+    font-size: 1.7rem;
+  }
+   
+  .framework_tool h1{
+    font-size: 1.5rem;
+    padding: 0 3px;
+  }
+  .react{
+   margin-top: 10px;
+  }
+
+  .language{
+    width: 60%;
+  }
+  .framework_tool{
+    margin-top: 5rem;
+    width: 60%;
+  }
+  .framework_tool .and{
+    font-size: 18px;
+    padding: 0 2px;
+  }
+  
+}
