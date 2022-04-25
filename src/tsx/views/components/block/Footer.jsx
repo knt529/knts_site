@@ -3,7 +3,8 @@ import "../../../styles/block/Footer.css"
 function Footer(){
   return(
     <div className="Footer">
-     <small>(c) Kanato.</small>
+      <a>お問い合わせ</a>
+     <small>© Kanato.</small>
     </div>
   )
 }

@@ -2,7 +2,7 @@
   text-align: center;
 }
 .Form .title{
-  font-size: 32px;
+  font-size: 3.5rem;
   margin-top: 150px;
 }
 .contactForm{
@@ -53,8 +53,8 @@
  }
 }
 @media screen and (min-width: 321px) and (max-width: 450px){
-  .Contact{
-   
+  .Form .title{
+    font-size: 2.5rem;
   }
   .contactForm p{
     font-size: 1.2rem;
