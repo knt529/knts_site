@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/knts_site/static/css/main.416ee7ab.css",
+    "main.js": "/knts_site/static/js/main.cbcb4f54.js",
+    "static/js/787.1ec8908e.chunk.js": "/knts_site/static/js/787.1ec8908e.chunk.js",
+    "static/media/top-view2.jpg": "/knts_site/static/media/top-view2.3960bfe5abaa11bc51c4.jpg",
+    "static/media/top-view3.jpg": "/knts_site/static/media/top-view3.fc18e25d02ec7a0798e9.jpg",
+    "static/media/face.jpg": "/knts_site/static/media/face.8bdf7f4d07d38b3c5474.jpg",
+    "static/media/menu_app.jpg": "/knts_site/static/media/menu_app.0fa1f65115b08ca114ff.jpg",
+    "static/media/menu_app2.png": "/knts_site/static/media/menu_app2.42c0f0733853a3c7a2f4.png",
+    "index.html": "/knts_site/index.html",
+    "main.416ee7ab.css.map": "/knts_site/static/css/main.416ee7ab.css.map",
+    "main.cbcb4f54.js.map": "/knts_site/static/js/main.cbcb4f54.js.map",
+    "787.1ec8908e.chunk.js.map": "/knts_site/static/js/787.1ec8908e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.416ee7ab.css",
+    "static/js/main.cbcb4f54.js"
+  ]
+}
