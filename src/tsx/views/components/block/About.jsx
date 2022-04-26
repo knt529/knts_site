@@ -6,9 +6,10 @@ import {Scroll} from "../atoms/ScrollReveal"
 function About() {
   return(
     <div>
+      <div id="about"></div>
      <div className="about">
       <Scroll>
-        <h1 className="title">About Me</h1>
+        <h1 className="title" >About Me</h1>
       </Scroll>
       <Scroll>
 
@@ -21,7 +22,7 @@ function About() {
           <p>中学・高校はともにサッカー部に所属。</p>
           <p>HTML/CSSはProgateとドットインストールを用いて学習し、JavaScriptとReactは書籍で独学中
           </p>
-          <p>趣味は読書、アニメ・映画鑑賞、筋トレ、一人旅、スノーボード</p> 
+          <p>読書、アニメ・映画鑑賞、筋トレ、一人旅、スノーボードが趣味です。</p> 
           <p >インターンを通して、実践的なプログラミングスキルを身に着けさせていただきたいと考えております！</p>
           </div>
         </div> 

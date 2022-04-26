@@ -10,7 +10,7 @@ function Top(){
        <img className="top-view1" src={topview}></img>
        <img className="top-view2" src={topview2}></img>
       </div>
-      <div className='msg' id="about">
+      <div className='msg' >
      <h1>Welcome <br className="br"></br>to<br className="br"></br> Kanato's Site !</h1>
     </div>
     </div>

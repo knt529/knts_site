@@ -5,7 +5,9 @@ import {Scroll} from "../atoms/ScrollReveal"
 
 function Skill() {
   return( 
-    <div className="skills" id="skills">
+    <div>
+    <div id="skills"></div>
+    <div className="skills">
       <Scroll>
       <h1 className="title" >Web Skills</h1>
       </Scroll>
@@ -32,7 +34,7 @@ function Skill() {
                  text={
                    <div>
                     <p>学習期間 7ヶ月</p>
-                    <p>複雑なコードを自分で一から考えてコーディングするのは難しいですが、QiitaやGithub等で公開されているサンプルコードを元に機能を追加していくことは可能です。</p>
+                    <p>複雑なコードを自分で一から考えてコーディングするのはまだ難しいですが、QiitaやGithub等で公開されているサンプルコードを元に機能を追加していくことは可能です。</p>
                   </div>
                }
                />
@@ -48,7 +50,7 @@ function Skill() {
                  text={
                   <div>
                     <p>学習期間 5ヶ月</p>
-                    <p>コンポーネントやprops、useStateを用いてWebサイトを作成できるレベルです。</p>
+                    <p>コンポーネントやprops、useState等を用いてWebサイトの作成ができるレベルです。</p>
                   </div>
                }
                />
@@ -59,7 +61,7 @@ function Skill() {
                  text={
                   <div>
                     <p>学習期間 1週間</p>
-                    <p>インターンへ応募するにあたって学習を開始。<br/>これから本格的に習得していきたいと考えています。</p>
+                    <p>インターンに向けて学習を開始。<br/>これから本格的に習得していきたいと考えております。</p>
                   </div>
                }
                />
@@ -68,6 +70,7 @@ function Skill() {
          </div>
       </div>
         </Scroll>
+    </div>
     </div>
   )
  }

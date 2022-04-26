@@ -1,3 +1,8 @@
+#warks {
+  height: 10px;
+  margin-bottom: 100px;
+ }
+
 .warks {
   text-align: center;
   width: 80%;
@@ -90,6 +95,10 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 450px){
+  #warks{
+    height: 40px;
+    margin-bottom: 0px;
+  }
   .warks{
     width: 100%;
     padding-top: 10px;

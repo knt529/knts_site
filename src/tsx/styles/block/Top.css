@@ -11,6 +11,7 @@
   position: absolute;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 10px #000;
+  font-family: 'Libre Bodoni', serif;
   font-size: 3rem;
   width: 100%;
   text-align: center;
@@ -67,7 +68,8 @@
 }
 .msg{
   font-size: 1.4rem;
-  top: 10.8rem;
+  line-height: 4rem;
+  top: 10.3rem;
 }
 .br{
   display: block;

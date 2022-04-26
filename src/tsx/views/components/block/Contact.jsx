@@ -60,7 +60,8 @@ class Contact extends React.Component {
       );
     }
 
-    return (    
+    return (   
+      <div>
         <div className='Form' id="contact">
         <div className="Contact">
           <Scroll>
@@ -71,6 +72,7 @@ class Contact extends React.Component {
           </Scroll>
           </div>
         </div>
+      </div> 
     );
   }
 }
