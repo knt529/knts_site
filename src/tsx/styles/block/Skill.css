@@ -11,6 +11,9 @@
   justify-content: space-around;
   margin: 0 auto;
 }
+.skills{
+  margin-bottom: 80px;
+}
 .skills .title{
   text-align: left;
   margin: 20px 0 10px 360px;
@@ -149,6 +152,9 @@
   #skills{
     height: 40px;
    margin-bottom: 0px;
+  }
+  .skills{
+    margin-bottom: 0;
   }
   .skills .title{
     text-align: center;
