@@ -1,5 +1,5 @@
 #skills {
- height: 10px;
+ height: 20px;
  margin-bottom: 100px;
 }
 
@@ -16,7 +16,7 @@
 }
 .skills .title{
   text-align: left;
-  margin: 20px 0 10px 360px;
+  margin: 20px 0 50px 360px;
   font-size: 3.5rem;
 }
 .skill_contents{

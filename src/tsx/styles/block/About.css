@@ -1,7 +1,7 @@
 .about{
   width: 72%;
   margin: 0 auto;
-  padding: 0px 20px 40px 20px;                           
+  padding: 0px 20px 10px 20px;                           
 }
 .site-about{
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .about .title{
-  margin: 0px 0 10px 100px;
+  margin: 10px 0 10px 100px;
   font-size: 3.5rem;
 }
 
