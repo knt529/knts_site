@@ -19,7 +19,7 @@ function About() {
           <h2 className="about_name">横山 奏人<span className="small_name">（よこやま かなと）</span></h2>
           <p>2001年5月29日生まれ 大阪府出身</p>
           <p>大阪経済大学 経済学部 3年生</p>
-          <p>2021年1月からProgateとドットインストールを用いてHTML/CSSの学習を開始<br/>現在は主にJavaScriptとReactを書籍で学習中
+          <p>2021年1月からProgateとドットインストールを用いてHTML/CSSの学習を開始<br/>現在は主にJavaScriptとReactを学習中
           </p>
           <p>将来的にはサーバーサイドの知識もあるエンジニアになりたいです。</p> 
           <p >実務経験がないため、インターン活動を通して実践的なプログラミングスキルを身に着けさせていただきたいと考えております！</p>
