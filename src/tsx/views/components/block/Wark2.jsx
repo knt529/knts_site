@@ -3,12 +3,13 @@ import menu_app2 from "../../../../img/menu_app2.png"
 
 import weather_app from "../../../../img/weather_app.jpg"
 import weather_app2 from "../../../../img/weather_app2.jpg"
+
 import "../../../styles/block/Wark.css"
 
 import {Scroll} from "../atoms/ScrollReveal"
 import WarkContent from "./WarkContent"
 
-function Wark() {
+function Wark2() {
   return(
     <div>
        <div id="warks"></div>
@@ -51,4 +52,4 @@ function Wark() {
   )
 }
 
-export default Wark;
+export default Wark2;
