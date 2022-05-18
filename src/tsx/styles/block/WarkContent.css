@@ -15,7 +15,7 @@
 .wark_img{
   width: 260px;
   margin: 20px 30px;
-  border: 1.5px solid rgb(113, 112, 112);
+  border: 2px solid rgb(113, 112, 112);
   border-radius: 10px;
 }
 .wark_img2{
@@ -43,10 +43,7 @@
   .overview{
     margin-top: 20px;
   }
-  .overview p{
-    padding: 5px;
-  }
-  .detail{
+  .overview p .detail{
     padding: 5px;
   }
 }
@@ -74,9 +71,10 @@
 @media screen and (min-width: 321px) and (max-width: 450px){
   .wark_img2{
     width: 270px;
+    height: 210px;
   }
   .overview {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
